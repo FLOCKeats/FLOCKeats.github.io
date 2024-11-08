@@ -279,7 +279,7 @@ nav {
 }
 
 .footer {
-  background-color: #403020;
+  background-color: $white;
   position: absolute;
   text-align: center;
   vertical-align: middle;
@@ -290,7 +290,7 @@ nav {
   height: 80px;
   /* Height of the footer */
   position: fixed;
-  box-shadow: 2px 6px 2px 6px rgba(10, 10, 10, 0.12), inset 0 3px 0 #ffd718;
+  box-shadow: 2px 6px 2px 6px rgba(10, 10, 10, 0.12), inset 0 3px 0 $black;
 }
 
 @media screen and (max-width: 640px) {
@@ -316,7 +316,7 @@ nav {
 }
 .footer-copyright {
   font-size: 12px;
-  color: #FFD700;
+  color: $red;
   padding: 0;
   /* position: relative; */
 }
