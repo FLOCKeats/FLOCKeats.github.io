@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Flock is a restaurant located in Casper Wyoming
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Owned and locally operated by Trent Bradfield, making amazing chicken dishes and mac n' cheese.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[flockwyo@gmail.com](mailto:email@domain.com)
