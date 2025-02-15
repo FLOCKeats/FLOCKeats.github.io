@@ -38,11 +38,11 @@ disqus:
 google_analytics:
 
 carousels:
-  -images:
-    -/images/dip.JPEG
-    -/images/dippy.JPEG
-    -/images/mac.JPEG
-    -/images/upclose pudding.JPEG
+  - images: 
+    - image: /images/dip.JPEG
+    - image: /images/dippy.JPEG
+    - image: /images/mac.JPEG
+    - image: /images/upclose pudding.JPEG
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: http://www.flockeats.com
