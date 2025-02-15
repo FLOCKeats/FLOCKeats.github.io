@@ -6,10 +6,10 @@ permalink: /foodtest/
 
 carousels:
   - images: 
-    - image: [dip](/images/dip.JPEG)
-    - image: [dippy](/images/dippy.JPEG)
-    - image: [mac](/images/mac.JPEG)
-    - image: [pudding](/images/closeup%20pudding.JPEG)
+    - image: /images/dip.JPEG
+    - image: /images/dippy.JPEG
+    - image: /images/mac.JPEG
+    - image: /images/closeup pudding.JPEG
 ---
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
