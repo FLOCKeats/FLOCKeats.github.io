@@ -2,6 +2,12 @@
 # This file contains configuration flags to customize your site
 #
 
+carousels:
+ - images:
+   - images/dip.jpg
+   - images/dippy.jpg
+   - images/mac.jpg
+   - images/upclose pudding.jpg
 # Name of your site (displayed in the header)
 name: FLOCK
 
