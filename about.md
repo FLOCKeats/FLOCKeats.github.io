@@ -8,7 +8,7 @@ Welcome to FLOCK, Casper WY's new go-to spot for all things crispy and delicious
 
 ### More Information
 
-<img src="images/Stack_Flock.jpg">
+<img src="images/Cowboy Chicken.jpg">
 
 ### Contact me
 
