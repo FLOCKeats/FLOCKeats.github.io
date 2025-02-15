@@ -8,7 +8,7 @@ Welcome to FLOCK, Casper WY's new go-to spot for all things crispy and delicious
 
 ### More Information
 
-src img=<images/layered foods.JPG>
+<img src=images/layered foods.JPG>
 
 ### Contact me
 
