@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome to FLOCK, Casper WY's locally owned and operated fast casual spot for all things crispy and delicious! FLOCK was created with one simple goal: to serve up the best chicken tenders, fresh and packed with flavor. We take pride in marinating and breading our chicken in-house, while crafting our sauces and desserts from scratch to keep things fresh and tasty. Whether you're here for a quick bite or a hearty meal, we've got you covered with mouthwatering food that'll leave you wanting to come back for more. Join us at FLOCK, where comfort food and good vibes are always on the menu!
+Welcome to FLOCK, Casper WY's locally owned and operated fast casual spot for all things crispy and delicious! FLOCK was created with one simple goal; to serve up the best chicken tenders, fresh and packed with flavor. We take pride in marinating and breading our chicken in-house, while crafting our sauces and desserts from scratch to keep things fresh and tasty. Whether you're here for a quick bite or a hearty meal, we've got you covered with mouthwatering food that'll leave you wanting to come back for more. Join us at FLOCK, where comfort food and good vibes are always on the menu!
 
 
 ![Cowboy Chicken](images/Cowboy Chicken.jpg){: height="300" }
