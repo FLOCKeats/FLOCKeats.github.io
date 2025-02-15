@@ -4,4 +4,4 @@ page: foodtest
 permalink: /foodtest/
 ---
 
-{ % incclude carousel.html images=carousel.images % }
+{ % include carousel.html images=carousel.images % }
