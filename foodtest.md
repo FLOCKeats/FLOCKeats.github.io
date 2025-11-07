@@ -14,5 +14,4 @@ carousels:
 
 {% include carousel.html height="50" unit="%" duration="7" images="page.carousels.images" %}
 
-<script src= "{{ '_Assets/js/Doordash.js' | relative_url }}"></script>
-<button onclick="openDoorDashModal()">Order Delivery</button>
+{ % include doordash.html % }
