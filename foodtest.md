@@ -14,4 +14,4 @@ carousels:
 
 {% include carousel.html height="50" unit="%" duration="7" images="page.carousels.images" %}
 
-{ % include doordash.html % }
+{% include doordash.html %}
