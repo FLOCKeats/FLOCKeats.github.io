@@ -243,8 +243,8 @@ nav {
 //
 
 #sf-floating-button {
-    position: fixed !important;
-    top: calc(20px + 50px) !important;  // 20px padding + 50px height of masthead
+    position: sticky !important;
+    top: 10em !important;  // Adjust based on your masthead's height
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: fit-content !important;
