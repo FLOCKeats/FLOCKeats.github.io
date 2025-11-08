@@ -242,6 +242,17 @@ nav {
 // .main
 //
 
+#sf-floating-button {
+    position: absolute !important;
+    top: 100% !important;
+    transform: none !important;
+    margin-top: 10px;
+}
+
+.wrapper-masthead {
+    position: relative;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
