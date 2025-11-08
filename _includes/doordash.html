@@ -9,18 +9,24 @@
     }, s.async = 1, s.src ='https://web-apps.cdn4dd.com/webapps/sdk-storefront/latest/sdk.js' , t.insertBefore(s, c)
 })(window, document.head);
 
-StorefrontSDK.executeCommand('renderFloatingButton', {
-    businessId: 14343479,
-    businessSlug: 'flock',
-    buttonHref: 'https://order.online/store/flock-casper-34398133',
-    floatingBar: false,
-    position: 'top',
-    buttonAlignment: 'center',
-    backgroundColor: 'transparent',
-    buttonBackgroundColor: '#D92128',
-    borderColor: 'transparent',
-    buttonText: 'Order Delivery',
-    showModal: false,
-    topOffset: '12em'
+// Wait for the masthead to load, then calculate its height
+window.addEventListener('load', function() {
+    var masthead = document.querySelector('.wrapper-masthead');
+    var mastheadHeight = masthead ? masthead.offsetHeight : 0;
+    
+    StorefrontSDK.executeCommand('renderFloatingButton', {
+        businessId: 14343479,
+        businessSlug: 'flock',
+        buttonHref: 'https://order.online/store/flock-casper-34398133',
+        floatingBar: false,
+        position: 'top',
+        buttonAlignment: 'center',
+        backgroundColor: 'transparent',
+        buttonBackgroundColor: '#D92128',
+        borderColor: 'transparent',
+        buttonText: 'Order Delivery',
+        showModal: false,
+        topOffset: mastheadHeight + 'px'
+    });
 });
 </script>
