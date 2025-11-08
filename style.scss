@@ -244,9 +244,11 @@ nav {
 
 #sf-floating-button {
     position: absolute !important;
-    top: 100% !important;
-    transform: none !important;
-    margin-top: 10px;
+    top: auto !important;
+    bottom: -50px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: fit-content !important;
 }
 
 .wrapper-masthead {
