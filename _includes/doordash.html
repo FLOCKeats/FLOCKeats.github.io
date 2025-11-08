@@ -11,7 +11,6 @@
 StorefrontSDK.executeCommand('renderFloatingButton', {
     businessId: 14343479,
     businessSlug: 'flock',
-    buttonHref: 'https://order.online/store/flock-casper-34398133',
     floatingBar: true,
     position: 'top',
     buttonAlignment: 'center',
@@ -20,6 +19,8 @@ StorefrontSDK.executeCommand('renderFloatingButton', {
     borderColor: 'transparent',
     buttonText: 'Order Delivery',
     showModal: false,
-    topOffset: '12em'
+    topOffset: '200px', // Adjust based on your masthead height
+    buttonWidth: '300px', // Add this to control button width
+    buttonPadding: '12px 24px' // Add this to control button size
 });
 </script>
