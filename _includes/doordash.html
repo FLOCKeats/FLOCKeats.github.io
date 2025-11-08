@@ -8,11 +8,12 @@
         buffer: []
     }, s.async = 1, s.src ='https://web-apps.cdn4dd.com/webapps/sdk-storefront/latest/sdk.js' , t.insertBefore(s, c)
 })(window, document.head);
+
 StorefrontSDK.executeCommand('renderFloatingButton', {
     businessId: 14343479,
     businessSlug: 'flock',
     floatingBar: true,
-    position: 'top',
+    position: 'static',  // This will change the button's positioning
     buttonAlignment: 'center',
     backgroundColor: 'transparent',
     buttonBackgroundColor: '#D92128',
