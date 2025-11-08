@@ -12,13 +12,17 @@
 StorefrontSDK.executeCommand('renderFloatingButton', {
     businessId: 14343479,
     businessSlug: 'flock',
-    floatingBar: true,
-    position: 'static',  // This will change the button's positioning
-    buttonAlignment: 'center',
+    floatingBar: false,  // Disable floating bar
+    position: 'bottom',  // Position the button at the bottom of the screen
+    buttonAlignment: 'center',  // Center the button horizontally
     backgroundColor: 'transparent',
-    buttonBackgroundColor: '#D92128',
+    buttonBackgroundColor: '#D92128',  // Set button background color
     borderColor: 'transparent',
     buttonText: 'Order Delivery',
     showModal: false,
+    topOffset: '100px',  // Adjust this based on your masthead height or desired space
+    bottomOffset: '0px',  // Adjust if you want some space from the bottom of the screen
+    zIndex: 9999,  // Ensure the button is above other elements
+    buttonRadius: '10px'  // Set a radius for rounded corners
 });
 </script>
