@@ -245,14 +245,16 @@ nav {
 #sf-floating-button {
     position: absolute !important;
     top: auto !important;
-    bottom: -50px !important;
+    bottom: -25px !important; /* Half the button height to center it on the border */
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: fit-content !important;
+    z-index: 10 !important;
 }
 
 .wrapper-masthead {
     position: relative;
+    margin-bottom: 50px; /* Adjust to prevent overlap with content below */
 }
 
 .posts > .post {
