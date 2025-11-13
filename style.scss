@@ -253,9 +253,9 @@ nav {
 	@include mobile {
 		position: absolute !important;
 		top: 5px !important;
-		left: 0% !important;
+		left: 20% !important;
 		transform: translateX(-50%) !important;
-		width: fit-content !important;
+		width: 159px !important;
 		z-index: 10 !important;
 	}
 }
