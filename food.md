@@ -19,4 +19,4 @@ carousels:
     - image: /images/Cowboy%20Chicken.jpg
 ---
 
-{% include carousel.html height="50" unit="%" duration="7" images="page.carousels.images" %}
+{% include carousel.html height="75" unit="%" duration="7" images="page.carousels.images" %}
