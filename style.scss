@@ -247,16 +247,20 @@ nav {
 
 #sf-floating-button {
     position: fixed !important;
-    top: 90px !important;  // Adjust to your masthead height (20px padding + 70px masthead height)
-    left: 50% !important;
+    top: 0px !important;  // Adjust to your masthead height (20px padding + 70px masthead height)
+    left:-20% !important;
     transform: translateX(-50%) !important;
     width: fit-content !important;
-    z-index: 9999 !important;  // Ensures it's above all other elements
+    z-index: 10 !important;  // Ensures it's above all other elements
 }
 
 
 #sf-floating-button[style] {
     position: absolute !important;
+}
+.storefront-sdk-emotion-1l19fv3
+{
+	min-width: 159px !important
 }
 
 .wrapper-masthead {
