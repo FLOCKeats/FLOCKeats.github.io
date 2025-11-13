@@ -12,11 +12,6 @@ carousels:
     - image: /images/upclose%20tendies.JPEG
     - image: /images/upclose%20dip.JPEG
     - image: /images/upclose%20bowl.JPEG
-    - image: /images/layered%20foods.JPG
-    - image: /images/pudding%20w%20logo.JPEG
-    - image: /images/bowl%20w%20logo.JPEG
-    - image: /images/Stack_Flock.jpg
-    - image: /images/Cowboy%20Chicken.jpg
 ---
 
-{% include carousel.html height="75" unit="%" duration="7" images="page.carousels.images" %}
+{% include carousel.html height="50" unit="%" duration="7" images="page.carousels.images" %}
