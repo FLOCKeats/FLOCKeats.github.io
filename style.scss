@@ -159,8 +159,6 @@ img {
   padding: 20px 0;
   border-bottom: 2px solid $red;
   margin-bottom: 100px;  /* Adjust this to give space for the button */
-}
-
 
   @include mobile {
     text-align: center;
