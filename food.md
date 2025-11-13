@@ -9,7 +9,6 @@ carousels:
     - image: /images/mac.JPEG
     - image: /images/upclose%20pudding.JPEG
     - image: /images/sando%20w%20logo.JPEG
-    - image: /images/upclose%20tendies.JPEG
     - image: /images/upclose%20dip.JPEG
     - image: /images/upclose%20bowl.JPEG
 ---
