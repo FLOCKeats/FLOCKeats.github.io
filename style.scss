@@ -252,8 +252,8 @@ nav {
 
 	@include mobile {
 		position: absolute !important;
-		top: 0px !important;
-		left: -10% !important;
+		top: 5px !important;
+		left: 0% !important;
 		transform: translateX(-50%) !important;
 		width: fit-content !important;
 		z-index: 10 !important;
